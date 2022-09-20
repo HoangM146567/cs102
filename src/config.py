@@ -115,8 +115,8 @@ class PlayerBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
     SCALE: float = 0.7
     SPEED: int = 35
-    GRAVITY: int = 2
-    DAMAGE: int = 10
+    GRAVITY: int = 3
+    DAMAGE: int = 5
 
     # initial vertical movement
     INIT_DY: int = -10
@@ -137,11 +137,11 @@ class ShadowBossConfig:
     SPRITE_PATH: Path = ASSET_DIR / "npcs" / "shadow"
     SCALE: float = 0.6
     ANIMATION_INTERVAL_MS: int = 200
-    SPEED: int = 1
+    SPEED: int = 0.5
     DAMAGE: int = 1
-    INITIAL_HP: int = 100
+    INITIAL_HP: int = 300
 
-    ANGRY_INTERVAL_MS: int = 7000
+    ANGRY_INTERVAL_MS: int = 4000
     ANGRY_DURATION_MS: int = 2000
 
     HURT_DURATION_MS: int = 500
@@ -151,8 +151,8 @@ class ShadowBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "shadow_bullet.png"
     SCALE: float = 0.05
     SPEED: int = 5
-    GRAVITY: int = 0.3
-    DAMAGE: int = 1
+    GRAVITY: int = 0.43
+    DAMAGE: int = 2
 
     # initial vertical movement
     INIT_DY: int = -15
